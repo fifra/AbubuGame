@@ -1,14 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\shootingscript.js">
     <Files>
-      <File FileName="Assets\Code\Blades.js" Line="14" Column="3" />
-      <File FileName="Assets\Code\DoorButton.js" Line="1" Column="1" />
-      <File FileName="Assets\Code\EndLvl.js" Line="1" Column="1" />
-      <File FileName="Assets\Code\Menu.js" Line="1" Column="1" />
-      <File FileName="Assets\Code\Flameslvl2.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="24" Column="34" />
-      <File FileName="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" Line="23" Column="1" />
+      <File FileName="Assets\orbController.js" Line="11" Column="3" />
+      <File FileName="Assets\shootingscript.js" Line="6" Column="20" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="194" Column="1" />
+      <File FileName="Assets\pullingScript.js" Line="8" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

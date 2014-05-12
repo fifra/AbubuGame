@@ -78,6 +78,9 @@
      <Compile Include="Assets\Code\EndLvl.js" />
      <Compile Include="Assets\Code\Flameslvl2.js" />
      <Compile Include="Assets\Code\Menu.js" />
+     <Compile Include="Assets\orbController.js" />
+     <Compile Include="Assets\pullingScript.js" />
+     <Compile Include="Assets\shootingscript.js" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\3D Platformer Tutorial\Textures\Glass\glass.shader" />

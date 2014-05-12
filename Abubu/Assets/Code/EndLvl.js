@@ -5,7 +5,7 @@ function OnTriggerEnter(other:Collider)
 	if(other.gameObject.tag == "Player")
 	{
 
-		Application.LoadLevel ("lvl1"); 
+		Application.LoadLevel ("lvl2"); 
 
 	}
 }

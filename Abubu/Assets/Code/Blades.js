@@ -10,8 +10,8 @@ function OnTriggerEnter(other:Collider)
 		Application.LoadLevel ("lvl1");
 
 	}
-}*/
-
+}
+*/
 function Start () {
  movingLeft = true;
  spd = 1;

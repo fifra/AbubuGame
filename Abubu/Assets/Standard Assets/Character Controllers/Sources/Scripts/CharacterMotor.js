@@ -4,7 +4,7 @@
 
 // Does this script currently respond to input?
 var canControl : boolean = true;
-var anim:Animator;
+
 var useFixedUpdate : boolean = true;
 
 // For the next variables, @System.NonSerialized tells Unity to not serialize the variable or show it in the inspector view.
@@ -23,15 +23,11 @@ function OnTriggerEnter(other:Collider)
 {
 	if(other.gameObject.tag == "Enemy")
 	{
-		
-		Application.LoadLevel ("lvl1");
+
+		Application.LoadLevel(Application.loadedLevel);
 
 	}
-}
-
-
-
-
+} 
 
 class CharacterMotorMovement {
 	// The maximum horizontal speed when moving

@@ -15,7 +15,6 @@ function Update () {
 
 function OnTriggerEnter(other:Collider)
 {
-	Debug.Log("hit object");
 	if (other.gameObject.tag == "GravPanel")
 	{
 		canMove = false;

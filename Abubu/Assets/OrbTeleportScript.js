@@ -7,7 +7,6 @@ function Start () {
 var orbScript:orbController;
 
 function Update () {
-	Debug.Log("test1");
 	if (Input.GetKeyDown(KeyCode.Q))
 	{
 		

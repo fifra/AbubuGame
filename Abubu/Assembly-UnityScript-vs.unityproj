@@ -78,6 +78,7 @@
      <Compile Include="Assets\Code\DoorButton.js" />
      <Compile Include="Assets\Code\EndLvl.js" />
      <Compile Include="Assets\Code\Menu.js" />
+     <Compile Include="Assets\Code\Powers.js" />
      <Compile Include="Assets\OrbTeleportScript.js" />
      <Compile Include="Assets\orbController.js" />
      <Compile Include="Assets\pullingScript.js" />

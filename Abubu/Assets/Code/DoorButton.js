@@ -46,5 +46,4 @@ function Update () {
   	{
   		DoorInstance.transform.Translate(Vector3.up * 3 * Time.deltaTime);
   	}
-   Debug.Log (InRange);
 }

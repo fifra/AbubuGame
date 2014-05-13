@@ -74,6 +74,7 @@
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPushBodies.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonStatus.js" />
      <Compile Include="Assets\Code\Blades.js" />
+     <Compile Include="Assets\Code\CameraForward.js" />
      <Compile Include="Assets\Code\DoorButton.js" />
      <Compile Include="Assets\Code\EndLvl.js" />
      <Compile Include="Assets\Code\Menu.js" />

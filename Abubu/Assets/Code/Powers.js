@@ -4,7 +4,6 @@ private var chMotor : CharacterMotor;
 
 private var sSprint : boolean = false;
 private var sJump : boolean = false;
-private var sSlow : boolean = false;
 
 function Start()
 {
@@ -15,7 +14,6 @@ function Start()
 	
 function OnTriggerEnter(other:Collider)
 {
-Debug.Log("Collision detected");
 	if(other.gameObject.tag == "JumpPanel")//super jump
 	{
 		chMotor.jumping.baseHeight = 2;

@@ -15,16 +15,17 @@ function Start()
 	
 function OnTriggerEnter(other:Collider)
 {
+Debug.Log("Collision detected");
 	if(other.gameObject.tag == "JumpPanel")//super jump
 	{
-		chMotor.jumping.baseHeight = 3;
+		chMotor.jumping.baseHeight = 2;
 		chMotor.jumping .extraHeight = 2;	
 	}
 	else if(other.gameObject.tag == "SpeedPanel")//super speed
 	{
-		chMotor.movement.maxForwardSpeed = 20;
-		chMotor.movement.maxSidewaysSpeed = 20;
-		chMotor.movement.maxBackwardsSpeed = 20;
+		chMotor.movement.maxForwardSpeed = 15;
+		chMotor.movement.maxSidewaysSpeed = 15;
+		chMotor.movement.maxBackwardsSpeed = 15;
 	}
 	else if (other.gameObject.tag == "Depower")//remove buffs
 	{

@@ -76,8 +76,8 @@
      <Compile Include="Assets\Code\Blades.js" />
      <Compile Include="Assets\Code\DoorButton.js" />
      <Compile Include="Assets\Code\EndLvl.js" />
-     <Compile Include="Assets\Code\Flameslvl2.js" />
      <Compile Include="Assets\Code\Menu.js" />
+     <Compile Include="Assets\OrbTeleportScript.js" />
      <Compile Include="Assets\orbController.js" />
      <Compile Include="Assets\pullingScript.js" />
      <Compile Include="Assets\shootingscript.js" />

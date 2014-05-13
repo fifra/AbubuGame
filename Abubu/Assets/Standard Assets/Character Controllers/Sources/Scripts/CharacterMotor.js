@@ -21,7 +21,7 @@ var inputJump : boolean = false;
 
 function OnTriggerEnter(other:Collider)
 {
-	if(other.gameObject.tag == "Enemy")
+	if((other.gameObject.tag == "Enemy")||(other.gameObject.tag == "EnemyMove"))
 	{
 
 		Application.LoadLevel(Application.loadedLevel);
@@ -339,6 +339,8 @@ function FixedUpdate () {
 	
 	if (useFixedUpdate)
 		UpdateFunction();
+		
+
 }
 
 function Update () {

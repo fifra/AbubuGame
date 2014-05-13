@@ -18,10 +18,14 @@ function OnTriggerEnter(other:Collider)
 	Debug.Log("hit object");
 	if (other.gameObject.tag == "GravPanel")
 	{
-		Debug.Log("hit grav panel");
 		canMove = false;
 		//orb will stay there
 		//logic for after the orb sticks
+	}
+	if (other.gameObject.tag == "EnemyMove")
+	{
+		Destroy(gameObject);
+		Destroy(other.gameObject);
 	}
 }
 

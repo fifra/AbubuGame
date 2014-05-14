@@ -7,7 +7,8 @@ function Start () {
 var orbScript:orbController;
 
 function Update () {
-	if (Input.GetKeyDown(KeyCode.Q))
+	//if (Input.GetKeyDown(KeyCode.Q))
+	if(Input.GetMouseButtonDown(1))
 	{
 		
 		orbScript = GameObject.FindGameObjectWithTag("Orb").GetComponent(orbController);

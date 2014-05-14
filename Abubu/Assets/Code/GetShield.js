@@ -8,14 +8,9 @@ function Start () {
 
 function delayShield()
 {
-	if (canShield)
-	{
-		this.gameObject.SetActive(true);
-	}
 	canShield = false;
 	yield WaitForSeconds(3);
 	canShield = true;
-	
 }
 
 

@@ -1,20 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Menu.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OrbTeleportScript.js">
     <Files>
-      <File FileName="Assets\Code\EnemyShoot.js" Line="15" Column="15" />
-      <File FileName="Assets\Code\Powers.js" Line="1" Column="1" />
-      <File FileName="Assets\shootingscript.js" Line="3" Column="1" />
-      <File FileName="Assets\orbController.js" Line="16" Column="1" />
-      <File FileName="Assets\Code\Blades.js" Line="1" Column="1" />
-      <File FileName="Assets\Code\DoorButton.js" Line="35" Column="4" />
-      <File FileName="Assets\Code\CameraForward.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="27" Column="3" />
-      <File FileName="Assets\OrbTeleportScript.js" Line="14" Column="1" />
+      <File FileName="Assets\Code\Bullet.js" Line="1" Column="1" />
       <File FileName="Assets\Code\SlowMo.js" Line="1" Column="1" />
-      <File FileName="Assets\Code\GetShield.js" Line="13" Column="19" />
-      <File FileName="Assets\Code\Bullet.js" Line="16" Column="23" />
-      <File FileName="Assets\Code\Menu.js" Line="16" Column="2" />
+      <File FileName="Assets\Code\EnemyShoot.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\Powers.js" Line="1" Column="1" />
+      <File FileName="Assets\shootingscript.js" Line="1" Column="1" />
+      <File FileName="Assets\orbController.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\Blades.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\DoorButton.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\CameraForward.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
+      <File FileName="Assets\OrbTeleportScript.js" Line="15" Column="33" />
+      <File FileName="Assets\Code\GetShield.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\Bullet.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\Menu.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

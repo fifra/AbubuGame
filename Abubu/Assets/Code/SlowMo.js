@@ -1,7 +1,7 @@
 ﻿#pragma strict
+var SlowSound : AudioClip;
 
 function Start () {
-
 }
 
 function Update () {
@@ -14,6 +14,12 @@ function Update () {
 		else
 		{
 			Time.timeScale = 1.0;
+			audio.Stop();
 		}
+	}
+	if((Time.timeScale == 0.3)&&(!audio.isPlaying))
+	{
+		audio.clip = SlowSound;
+    	audio.Play();
 	}
 }

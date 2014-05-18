@@ -346,6 +346,10 @@ function FixedUpdate () {
 function Update () {
 	if (!useFixedUpdate)
 		UpdateFunction();
+	if (Input.GetKey(KeyCode.Escape))
+    {
+        Application.Quit();
+    }
 }
 
 private function ApplyInputVelocityChange (velocity : Vector3) {	

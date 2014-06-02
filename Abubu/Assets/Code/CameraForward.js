@@ -1,5 +1,5 @@
 ﻿#pragma strict
-var zoom : int = 20;
+var zoom : int = 50;
 var normal : int = 60;
 var smooth : float = 5;
 private var isZoomed = false;

@@ -9,7 +9,7 @@ function Update () {
 	{
 		if(Time.timeScale == 1.0)
 		{
-			Time.timeScale=0.3;
+			Time.timeScale=0.2;
 		}
 		else
 		{
@@ -17,7 +17,7 @@ function Update () {
 			audio.Stop();
 		}
 	}
-	if((Time.timeScale == 0.3)&&(!audio.isPlaying))
+	if((Time.timeScale == 0.2)&&(!audio.isPlaying))
 	{
 		audio.clip = SlowSound;
     	audio.Play();
